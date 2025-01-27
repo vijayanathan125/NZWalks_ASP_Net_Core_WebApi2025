@@ -8,7 +8,7 @@ using NZWalks.API.Data;
 
 #nullable disable
 
-namespace NZWalks.API.Migrations
+namespace NZWalks.API.Migrations.NZWalksDB
 {
     [DbContext(typeof(NZWalksDBContext))]
     partial class NZWalksDBContextModelSnapshot : ModelSnapshot

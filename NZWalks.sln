@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NZWalks.API", "NZWalks.API\NZWalks.API.csproj", "{BC0AD451-7DAE-4762-BDD5-E97BBC51D1CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NZWalksTest", "NZWalksTest\NZWalksTest.csproj", "{F7889CBD-A6D3-47A4-AC0D-557142EA5467}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BC0AD451-7DAE-4762-BDD5-E97BBC51D1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC0AD451-7DAE-4762-BDD5-E97BBC51D1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC0AD451-7DAE-4762-BDD5-E97BBC51D1CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7889CBD-A6D3-47A4-AC0D-557142EA5467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7889CBD-A6D3-47A4-AC0D-557142EA5467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7889CBD-A6D3-47A4-AC0D-557142EA5467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7889CBD-A6D3-47A4-AC0D-557142EA5467}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

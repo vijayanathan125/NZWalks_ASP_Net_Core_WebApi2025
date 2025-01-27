@@ -17,14 +17,12 @@ namespace NZWalks.API.Controllers
     [ApiController]
     public class RegionsController : ControllerBase
     {
-        private readonly NZWalksDBContext dbContext;
         private readonly IRegionRepository regionRepository;
         private readonly IMapper mapper;
         private readonly ILogger<RegionsController> logger;
 
-        public RegionsController(NZWalksDBContext dbContext, IRegionRepository regionRepository, IMapper mapper, ILogger<RegionsController> logger)
+        public RegionsController(IRegionRepository regionRepository, IMapper mapper, ILogger<RegionsController> logger)
         {
-            this.dbContext = dbContext;
             this.regionRepository = regionRepository;
             this.mapper = mapper;
             this.logger = logger;
@@ -38,7 +36,7 @@ namespace NZWalks.API.Controllers
         {
             try
             {
-                throw new Exception("The is the custom exception");
+                //throw new Exception("The is the custom exception");
                 // Get Data from Database - Domain models
                 var regionsDomain = await regionRepository.GetAllAsync();
                 //Map Domain Models to DTO's using mapper
